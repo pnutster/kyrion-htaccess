@@ -1,4 +1,4 @@
-# The Master .htaccess
+# The Kyrion .htaccess
 
 Security-enhancing .htaccess (Apache), web.config (IIS) and NginX configuration files for Joomla!
 
@@ -22,8 +22,12 @@ Customizing the server configuration files can be done with a few clicks using [
 
 Purchasing a subscription to any of our software helps me and the other three people working with me to make a living. This allows us to work on Free and Open Source Software, do research and come up with things like this repository here.
 
-## Why is this repository called Master .htaccess?
+## About the name
 
-When I started working on it back in 2009 it was only a .htaccess file I was using on all of my sites. It was my "master" .htaccess file. So I created a repository for it.
+Both words in the repository's title have a story and are not quite what I intended.
 
-In the following years I adapted it for NginX and IIS 7+.
+“Kyrion” is a Greek word that means something that is either authoritative or meant to be the main instance which can be copied and modified. Yes, I am perfectly aware that there is an English word for that concept: “master”. Unfortunately, people take great offense at the word as having a racist connotation. On the upside, you clone a repository and you get a free Greek lesson. You're welcome.
+
+As for the second part being “.htaccess” when this repo also has NginX and IIS configuration files, not just the Apache ones, the reasoning is much simpler. When I started working on it back in 2009 it was only a .htaccess file I was using on all of my sites. It wasn't until 2011-ish that I started working on the other two files.
+
+I intended to call it The Non-Racially Charged Adjective Denoting Intent To Be Further Copied And Customized Server Configuration File Repository For Joomla Sites Running On Servers Capable Of Understanding Apache, NginX or IIS Configuration Language but that was a mouthful and a half and GitHub wouldn't allow me to use that name. So I settled for “Kyrion .htaccess“ and called it a night.
