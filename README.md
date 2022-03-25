@@ -2,6 +2,26 @@
 
 Security-enhancing .htaccess (Apache), web.config (IIS) and NginX configuration files for Joomla!
 
+# Sample Use
+
+Check https://coachapril.com
+
+Lines that I changed are:
+
+- Line 30
+- Line 348
+- 354 and 355 (non-www to www)
+- 361 and 362 (www to non-www)
+- 386
+- 458 and beyond - added rokbooster php exceptions
+
+Rokbooster exceptions used at 458 and beyond > replace code
+
+```RewriteRule ^(components|modules|templates|images|uploads|plugins|media|libraries|media/jui/fonts)/.*\.(jpe|jpg|jpeg|jp2|jpe2|png|gif|bmp|css|js|swf|html|mpg|mp3|mpeg|mp4|avi|wav|ogg|ogv|xls|xlsx|doc|docx|ppt|pptx|zip|rar|pdf|xps|txt|7z|svg|odt|ods|odp|flv|mov|ico|htm|ttf|woff|woff2|eot|JPG|JPEG|PNG|GIF|CSS|JS|TTF|WOFF|WOFF2|EOT|ico|ICO)$ - [L]
+## Rokbooster exception
+RewriteRule ^(cache/rokbooster)/.*\.(php)$ - [L]
+RewriteRule ^(cache/rokbooster|components|modules|templates|images|uploads|plugins|media|libraries|media/jui/fonts)/ - [F]```
+
 ## Customization required
 
 The files in this repository are designed as a template for you to create the .htaccess, web.config or NginX configuration file for your Joomla 3.x and 4.x sites. Their goal is to increase the security and performance of your site.
