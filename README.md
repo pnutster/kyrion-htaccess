@@ -17,7 +17,8 @@ Lines that I changed are:
 
 Rokbooster exceptions used at 458 and beyond > replace code
 
-```RewriteRule ^(components|modules|templates|images|uploads|plugins|media|libraries|media/jui/fonts)/.*\.(jpe|jpg|jpeg|jp2|jpe2|png|gif|bmp|css|js|swf|html|mpg|mp3|mpeg|mp4|avi|wav|ogg|ogv|xls|xlsx|doc|docx|ppt|pptx|zip|rar|pdf|xps|txt|7z|svg|odt|ods|odp|flv|mov|ico|htm|ttf|woff|woff2|eot|JPG|JPEG|PNG|GIF|CSS|JS|TTF|WOFF|WOFF2|EOT|ico|ICO)$ - [L]
+```
+RewriteRule ^(components|modules|templates|images|uploads|plugins|media|libraries|media/jui/fonts)/.*\.(jpe|jpg|jpeg|jp2|jpe2|png|gif|bmp|css|js|swf|html|mpg|mp3|mpeg|mp4|avi|wav|ogg|ogv|xls|xlsx|doc|docx|ppt|pptx|zip|rar|pdf|xps|txt|7z|svg|odt|ods|odp|flv|mov|ico|htm|ttf|woff|woff2|eot|JPG|JPEG|PNG|GIF|CSS|JS|TTF|WOFF|WOFF2|EOT|ico|ICO)$ - [L]
 ## Rokbooster exception
 RewriteRule ^(cache/rokbooster)/.*\.(php)$ - [L]
 RewriteRule ^(cache/rokbooster|components|modules|templates|images|uploads|plugins|media|libraries|media/jui/fonts)/ - [F]
