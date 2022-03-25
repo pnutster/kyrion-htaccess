@@ -13,7 +13,7 @@ Lines that I changed are:
 - 354 and 355 (non-www to www)
 - 361 and 362 (www to non-www)
 - 386
-- 458 and beyond - added rokbooster php exceptions
+- 458 and beyond - added BOIM uploads folder and rokbooster php exceptions
 
 Rokbooster exceptions used at 458 and beyond > replace code
 
